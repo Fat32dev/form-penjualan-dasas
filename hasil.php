@@ -42,6 +42,16 @@ $harga = $_POST['harga_barang'];
 $hitung = $harga * $jumlah;
 
 ?>
+<!--     Pembaruan 17/04/2021 -->
+<!--     <?php
+    echo  "
+    <script>
+        alert('Barang : $nama, Jumlah : $jumlah');
+        document.location.href = 'index.php';
+    </script>
+    ";
+    ?> -->
+        
     <td><?php echo $no ?></td>
     <td><?php echo $nama ?></td>
     <td><?php echo $jumlah ?></td>
