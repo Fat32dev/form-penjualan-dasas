@@ -4,4 +4,12 @@
 
 Pembaruan 17/04/2021
 Penambahan Alert Pada "hasil.php"
-![alt tag](https://user-images.githubusercontent.com/46950267/115115199-40385100-9fbd-11eb-9511-241f0c0be124.png)
+    <?php
+    echo  "
+    <script>
+        alert('Barang : $nama, Jumlah : $jumlah');
+        document.location.href = 'index.php';
+    </script>
+    ";
+    ?>
+    ![alt tag](https://user-images.githubusercontent.com/46950267/115115199-40385100-9fbd-11eb-9511-241f0c0be124.png)
